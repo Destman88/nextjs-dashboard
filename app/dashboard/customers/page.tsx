@@ -1,3 +1,5 @@
-export default function CustomersPage() {
-  return <p>Customers Page</p>;
+import Table from "@/app/ui/customers/table";
+
+export default async function CostumersPage() {
+  return <Table />;
 }
