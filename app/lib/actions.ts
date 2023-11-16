@@ -132,3 +132,21 @@ export async function authenticate(
     throw error;
   }
 }
+
+// Ejemplo de funciones CRUD para clientes
+export async function createCustomer(formData: FormData) {
+  // Validar y procesar los datos
+  // Insertar datos en la base de datos
+  // Revalidar la caché y redirigir si es necesario
+}
+
+export async function updateCustomer(id: string, formData: FormData) {
+  // Validar y procesar los datos
+  // Actualizar datos en la base de datos
+  // Revalidar la caché y redirigir si es necesario
+}
+
+export async function deleteCustomer(id: string) {
+  // Eliminar el cliente de la base de datos
+  // Revalidar la caché y redirigir si es necesario
+}
